@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 20px auto;
+    padding: 30px;
+    border: 10px solid plum;
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    background: rgb(206, 60, 84);
+    margin: 10px auto;
+    padding: 10px;
+    border: 15px solid rgb(101, 21, 101);
+}
+.caja3{     
+    width: 50px;
+    height: 50px;
+    background: rgb(126, 176, 236);
+    margin: 5px auto;
+    padding: 5px;
+    border: 10px solid rgb(241, 178, 241);
+}
+.caja4{
+    width: 30px;
+    height: 50px;
+    background: rgb(126, 236, 126);
+    margin: 2px auto;
+    padding: 2px;
+    border: 20px solid rgb(241, 241, 178);  
+}
+.caja5{
+    width: 150px;
+    height: 200px;
+    background: rgb(236, 236, 126);
+    margin: 10px auto;
+    padding: 1px;
+    border: 5px solid rgb(178, 241, 241);  
+}
+.caja6{
+    width: 50%;
+    height: 200px;
+    background: rgb(236, 126, 126);
+    margin: 5px auto;
+    padding: 10px;
+    border: 20px solid rgb(241, 241, 178);  
+}
+.caja7{
+    width: 250px;
+    height: 200px;
+    background: rgb(236, 126, 236);
+    margin: 10px auto;
+    padding: 5px;
+    border: 10px solid rgb(241, 178, 241);  
+}
+.caja8{
+    width: 100px;
+    height: 200px;
+    background: rgb(126, 236, 236);
+    margin: 5px auto;
+    padding: 10px;
+    border: 15px solid rgb(178, 241, 241);  
+}
+.caja9{
+    width: 200px;
+    height: 200px;
+    background: rgb(126, 236, 126);
+    margin: 10px auto;
+    padding: 5px;
+    border: 10px solid rgb(241, 241, 178);  
+}
+.caja10{
+    width: 100px;
+    height: 100px;
+    background: rgb(236, 126, 126);
+    margin: 5px auto;
+    padding: 10px;
+    border: 20px solid rgb(241, 241, 178);  
+}
