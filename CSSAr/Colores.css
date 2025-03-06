@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 10px;
+    text-align: center;   
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #68da46;  
+    margin: 10px;   
+    color: white;
+    padding: 15px;
+}
+.color1{
+    background: blueviolet;
+}
+.color2{
+    background: rgb(10,100,0);    
+}
+.color3{
+    background: rgb(100%, 20%, 50%);
+}
+.color4{
+    background: rgb(100%, 20%, 50%, 0.5);
+}
+.color5{
+    background-color: #297c80;
+}
+.color6{
+    background-color:#f0f; 
+}
+.color7{
+    background: rgb(132, 176, 213);
+    background: linear-gradient(90deg, rgb(15, 21, 73) 0%, rgb(66, 80, 205) 50%, rgb(28, 21, 226) 50%, rgb(0, 0, 0) 100%);
+}
+.color8{
+    background-color: #ff0000;
+    background: radial-gradient(center, ellipse cover, #ff0000 0%, #000000 100%);
+}
