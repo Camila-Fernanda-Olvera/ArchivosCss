@@ -33,11 +33,53 @@ div{
 .color6{
     background-color:#f0f; 
 }
-.color7{
-    background: rgb(132, 176, 213);
-    background: linear-gradient(90deg, rgb(15, 21, 73) 0%, rgb(66, 80, 205) 50%, rgb(28, 21, 226) 50%, rgb(0, 0, 0) 100%);
+.color7 {
+    background: linear-gradient(to right, blue, green); /* Gradiente horizontal */
+    color: white; /* Color del texto */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
-.color8{
-    background-color: #ff0000;
-    background: radial-gradient(center, ellipse cover, #ff0000 0%, #000000 100%);
+
+.color8 {
+    background: linear-gradient(to bottom, purple, pink); /* Gradiente vertical */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.color9 {
+    background: radial-gradient(circle, yellow, orange, red); /* Degradado radial */
+    color: white; /* Color del texto */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; /* Alineación del texto */
+}
+.color10 {
+    background-color: hsl(200, 70%, 50%); /* Puedes ajustar los valores de H, S y L */
+    color: white; /* Color del texto */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.color11 {
+    background: linear-gradient(to right, red, blue); /* Mezcla de colores */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.color12 {
+    background-color: rgba(255, 100, 50, 0.7); /* Color relativo con transparencia */
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.color13 {
+    background-color: hwb(200 20% 10%); /* Color HWB */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
