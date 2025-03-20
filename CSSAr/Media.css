@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: purple;
+}
+@media(min-width:100px) and (max-width:200px){
+    body{
+        background: red;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    body{
+        background: rgb(255, 247, 2);
+    }
+}
+@media(min-width:400px) and (max-width:500px){
+    body{
+        background: rgb(31, 189, 41);
+    }
+}
+@media(min-width:500px) and (max-width:600px){
+    body{
+        background: rgb(73, 70, 245);
+    }
+}
+@media(min-width:10px) and (max-width:100px){
+    body{
+        background: rgb(240, 53, 112);
+    }
+}
